@@ -1,0 +1,90 @@
+@media (min-width: 992px) {
+    .hero-carousel .carousel-inner .item-content-inner {
+      max-width: 100%;
+    }
+}
+
+.hero-carousel .carousel-inner .item-1 {
+    background-image: url("../images/cover-colored-2.jpg");
+}
+
+.hero-carousel .carousel-inner h1.heading{
+    font-size: 60px;
+}
+
+.hero-carousel .carousel-inner p.heading{
+    font-weight: normal;
+}
+
+.about-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-section .container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-section .intro {
+    text-align: justify;
+    color: #393a3c;
+    font-size: 16px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.team-section .container {
+    max-width: 1400px;
+}
+
+.team-section .intro {
+    text-align: justify;
+    color: #393a3c;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.team-section .members-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.members-wrapper .item {
+    margin-bottom: 30px;
+}
+  
+
+ul.type-none {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.color-highlight {
+    color: #40babd;
+}
+
+.bg-gray {
+    background-color: #f5f5f5;
+}
+
+.team-section .profile-image {
+    object-fit: cover;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+.team-section .social a.orcid {
+    background: #a6ce39;
+}
+  
+.team-section .social a.orcid:hover {
+    background: #9cc332;
+}
+
+.team-section span.color-highlight a {
+    text-decoration: none;
+    color: #40babd;
+    font-weight: bold;
+}
